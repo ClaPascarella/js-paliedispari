@@ -2,11 +2,11 @@ const parola = prompt ("inserisci una parola palindroma")
 console.log (parola)
 
 let palindroma = [
-    "radar",
-    "casa",
-    "oro",
-    "vestiti",
-    "osso",
+    "r",
+    "a",
+    "d",
+    "a",
+    "r",
 ];
 
 const parolaCorretta = palindroma[0,2,4];

@@ -1,5 +1,7 @@
 let bet = prompt("scommettiamo se è pari o dispari");
-let numeroUtente =parseInt (prompt("inserisci un numero da 1 a 6"));
+
+let numeroUtente = parseInt (prompt("inserisci un numero da 1 a 6"));
+
 if (numeroUtente <=6) {
     let computer = random ();
     let somma = computer + numeroUtente;
@@ -27,7 +29,7 @@ if (numeroUtente <=6) {
 
 
 function random() {
-    let com = Math,floor (Math.random( ) * 6) +1;
+    let com = Math.floor (Math.random( ) * 6) +1;
     console.log(computer);
     return computer;
 }
@@ -35,7 +37,7 @@ function random() {
 function pariOrDispari (numero) {
     let risultato = "disapri";
     if ( numero % 2 == 0) {
-        risulatato = "pari";
+        risultato = "pari";
     }
      console.log(risultato);
      return risultato   
